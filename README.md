@@ -4,3 +4,6 @@
 
 ![](/project.svg)
 
+<h3 style="font-size:20px;"><strong>Arcade Cabinet :</strong></h3>This Cabinet was inspired by https://www.instructables.com/Easy-Cab-arcade/
+
+
