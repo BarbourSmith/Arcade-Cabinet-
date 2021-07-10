@@ -1508,7 +1508,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "atoms/631269/912944/416176Color"
+                    "ioValue": "atoms/631269/912944/370796Assembly"
                 },
                 {
                     "name": "x-axis degrees",
