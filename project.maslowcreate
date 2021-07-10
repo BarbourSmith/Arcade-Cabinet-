@@ -2444,6 +2444,41 @@
             ]
         },
         {
+            "atomType": "Molecule",
+            "name": "Top Block",
+            "x": 0.424,
+            "y": 0.7786259541984732,
+            "uniqueID": 348381,
+            "ioValues": [
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Material Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.7709923664122137,
+                    "uniqueID": 917409,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9822222222222223,
+                    "y": 0.5,
+                    "uniqueID": 291875,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": false
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9822222222222223,
