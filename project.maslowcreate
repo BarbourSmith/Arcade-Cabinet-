@@ -19,7 +19,7 @@
             "y": 0.17938931297709923,
             "uniqueID": 173086,
             "ioValues": [],
-            "readmeText": "This Cabinet was inspired by https://www.instructables.com/Easy-Cab-arcade/"
+            "readmeText": "This Cabinet was inspired byÂ https://www.instructables.com/Easy-Cab-arcade/"
         },
         {
             "atomType": "Rotate",
@@ -144,7 +144,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 0.25
+                            "ioValue": 1
                         }
                     ]
                 },
@@ -215,7 +215,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 0.25
+                            "ioValue": 1
                         }
                     ],
                     "evolve": false,
@@ -411,14 +411,14 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "Equation",
+                    "name": "D/2",
                     "x": 0.1431111111111111,
                     "y": 0.8511450381679388,
                     "uniqueID": 941109,
                     "ioValues": [
                         {
                             "name": "D",
-                            "ioValue": 0.25
+                            "ioValue": 1
                         }
                     ],
                     "currentEquation": "D/2"
@@ -553,11 +553,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0.125
+                            "ioValue": 0.5
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0.125
+                            "ioValue": 0.5
                         },
                         {
                             "name": "zDist",
@@ -1035,7 +1035,7 @@
         },
         {
             "atomType": "Equation",
-            "name": "Equation",
+            "name": "24+T",
             "x": 0.21777777777777776,
             "y": 0.45801526717557256,
             "uniqueID": 298895,
@@ -1071,8 +1071,8 @@
         {
             "atomType": "Molecule",
             "name": "Button Surface",
-            "x": 0.13866666666666666,
-            "y": 0.7557251908396946,
+            "x": 0.14222222222222222,
+            "y": 0.7480916030534351,
             "uniqueID": 912944,
             "ioValues": [
                 {
@@ -1117,32 +1117,10 @@
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 0.14222222222222222,
-                    "y": 0.6603053435114504,
-                    "uniqueID": 229398,
-                    "ioValues": [
-                        {
-                            "name": "T",
-                            "ioValue": 0.75
-                        }
-                    ],
-                    "currentEquation": "-1*T"
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Material Thickness",
-                    "x": 0.013333333333333334,
-                    "y": 0.7290076335877863,
-                    "uniqueID": 816394,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Group",
                     "name": "Group",
-                    "x": 0.6880000000000001,
-                    "y": 0.2748091603053435,
+                    "x": 0.6142222222222222,
+                    "y": 0.183206106870229,
                     "uniqueID": 998196,
                     "ioValues": [
                         {
@@ -1158,6 +1136,42 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "-1*T",
+                    "x": 0.14222222222222222,
+                    "y": 0.6603053435114504,
+                    "uniqueID": 229398,
+                    "ioValues": [
+                        {
+                            "name": "T",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "currentEquation": "-1*T"
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.6995555555555556,
+                    "y": 0.1946564885496183,
+                    "uniqueID": 416176,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/631269/912944/998196Group"
+                        }
+                    ],
+                    "selectedColorIndex": 0
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Material Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.7290076335877863,
+                    "uniqueID": 816394,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -1186,7 +1200,7 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "Equation",
+                    "name": "24+2*T",
                     "x": 0.16533333333333333,
                     "y": 0.8435114503816794,
                     "uniqueID": 561458,
@@ -1216,20 +1230,6 @@
                     ]
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.8204444444444444,
-                    "y": 0.366412213740458,
-                    "uniqueID": 416176,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "atoms/631269/912944/998196Group"
-                        }
-                    ],
-                    "selectedColorIndex": 0
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.4222222222222223,
@@ -1243,6 +1243,48 @@
                         {
                             "name": "height",
                             "ioValue": -0.75
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.6960000000000001,
+                    "y": 0.6297709923664122,
+                    "uniqueID": 239720,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/631269/912944/790610/859217Add-BOM-Tag"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.8533333333333334,
+                    "y": 0.5725190839694657,
+                    "uniqueID": 370796,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -1272,6 +1314,21 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Arcade Cabinet Buttons",
+                    "x": 0.664888888888889,
+                    "y": 0.8625954198473282,
+                    "uniqueID": 790610,
+                    "projectID": "384573953",
+                    "ioValues": [
+                        {
+                            "name": "Spacing",
+                            "ioValue": 9
+                        }
+                    ],
+                    "simplify": false
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9822222222222223,
@@ -1280,7 +1337,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "atoms/631269/912944/416176Color"
+                            "ioValue": "atoms/631269/912944/370796Assembly"
                         }
                     ]
                 }
@@ -1301,6 +1358,13 @@
                     "ap2ID": 998196
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 998196,
+                    "ap2ID": 416176
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "height",
                     "ap2Primary": false,
@@ -1315,6 +1379,13 @@
                     "ap2ID": 425665
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 416176,
+                    "ap2ID": 370796
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "T",
                     "ap2Primary": false,
@@ -1327,13 +1398,6 @@
                     "ap2Primary": false,
                     "ap1ID": 816394,
                     "ap2ID": 561458
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 998196,
-                    "ap2ID": 416176
                 },
                 {
                     "ap1Name": "geometry",
@@ -1358,13 +1422,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 416176,
-                    "ap2ID": 585753
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 425665,
@@ -1379,10 +1436,31 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 239720,
+                    "ap2ID": 370796
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 370796,
+                    "ap2ID": 585753
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 273031,
                     "ap2ID": 998196
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 790610,
+                    "ap2ID": 239720
                 }
             ],
             "fileTypeVersion": 1,
@@ -1549,5 +1627,5 @@
     "fileTypeVersion": 1,
     "simplify": false,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.001"
+    "circleSegmentSize": "0.301"
 }
