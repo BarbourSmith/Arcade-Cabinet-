@@ -1094,6 +1094,10 @@
                 {
                     "name": "3D shape 6",
                     "ioValue": 10
+                },
+                {
+                    "name": "3D shape 7",
+                    "ioValue": 10
                 }
             ]
         },
@@ -2432,23 +2436,27 @@
             ]
         },
         {
-            "atomType": "Group",
-            "name": "Group",
-            "x": 0.584,
-            "y": 0.66793893129771,
-            "uniqueID": 300338,
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.37955555555555553,
+            "y": 0.7938931297709924,
+            "uniqueID": 531492,
             "ioValues": [
                 {
-                    "name": "3D shape 1",
-                    "ioValue": 10
+                    "name": "geometry",
+                    "ioValue": "atoms/631269/348381/270594Rotate"
                 },
                 {
-                    "name": "3D shape 2",
-                    "ioValue": 10
+                    "name": "xDist",
+                    "ioValue": 16.5
                 },
                 {
-                    "name": "3D shape 3",
-                    "ioValue": 10
+                    "name": "yDist",
+                    "ioValue": 12
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 72
                 }
             ]
         },
@@ -2579,8 +2587,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Tabbed Rectangle",
-                    "x": 0.2222222222222222,
-                    "y": 0.7290076335877863,
+                    "x": 0.22666666666666666,
+                    "y": 0.732824427480916,
                     "uniqueID": 409591,
                     "projectID": "384761777",
                     "ioValues": [
@@ -2590,7 +2598,7 @@
                         },
                         {
                             "name": "Y",
-                            "ioValue": 6
+                            "ioValue": 8
                         },
                         {
                             "name": "Material Thickness",
@@ -2610,8 +2618,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.4284444444444444,
-                    "y": 0.6870229007633588,
+                    "x": 0.4231111111111111,
+                    "y": 0.6755725190839695,
                     "uniqueID": 913067,
                     "ioValues": [
                         {
@@ -2624,7 +2632,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 2.5
                         },
                         {
                             "name": "zDist",
@@ -2817,29 +2825,62 @@
             "simplify": false
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.44266666666666665,
-            "y": 0.8778625954198472,
-            "uniqueID": 531492,
+            "atomType": "Molecule",
+            "name": "Bracing",
+            "x": 0.48444444444444446,
+            "y": 0.8854961832061068,
+            "uniqueID": 488478,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": "atoms/631269/348381/270594Rotate"
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 16.5
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 12
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 72
+                    "name": "Material Thickness",
+                    "ioValue": 0.75
                 }
-            ]
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Tabbed Rectangle",
+                    "x": 0.3342222222222222,
+                    "y": 0.5763358778625954,
+                    "uniqueID": 395047,
+                    "projectID": "384761777",
+                    "ioValues": [
+                        {
+                            "name": "X",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "Y",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Material Thickness",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "simplify": false
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Material Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.7709923664122137,
+                    "uniqueID": 469964,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9822222222222223,
+                    "y": 0.5,
+                    "uniqueID": 125515,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": false
         },
         {
             "atomType": "Output",
@@ -2885,13 +2926,6 @@
             "ap2ID": 784513
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 429071,
-            "ap2ID": 300338
-        },
-        {
             "ap1Name": "result",
             "ap2Name": "yDist",
             "ap2Primary": false,
@@ -2904,13 +2938,6 @@
             "ap2Primary": false,
             "ap1ID": 591659,
             "ap2ID": 784513
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 591659,
-            "ap2ID": 300338
         },
         {
             "ap1Name": "geometry",
@@ -2969,6 +2996,13 @@
             "ap2ID": 348381
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Material Thickness",
+            "ap2Primary": false,
+            "ap1ID": 314306,
+            "ap2ID": 488478
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 6",
             "ap2Primary": false,
@@ -2983,18 +3017,18 @@
             "ap2ID": 807955
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 7",
+            "ap2Primary": false,
+            "ap1ID": 531492,
+            "ap2ID": 784513
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 348381,
             "ap2ID": 531492
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 531492,
-            "ap2ID": 300338
         }
     ],
     "fileTypeVersion": 1,
