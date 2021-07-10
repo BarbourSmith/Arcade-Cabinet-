@@ -2448,7 +2448,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "atoms/631269/348381/270594Rotate"
+                    "ioValue": "atoms/631269/348381/882792Color"
                 },
                 {
                     "name": "xDist",
@@ -2589,6 +2589,27 @@
                     ]
                 },
                 {
+                    "atomType": "Group",
+                    "name": "Group",
+                    "x": 0.6248888888888889,
+                    "y": 0.3511450381679389,
+                    "uniqueID": 924318,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Tabbed Rectangle",
                     "x": 0.22666666666666666,
@@ -2645,45 +2666,10 @@
                     ]
                 },
                 {
-                    "atomType": "Group",
-                    "name": "Group",
-                    "x": 0.6817777777777778,
-                    "y": 0.4465648854961832,
-                    "uniqueID": 924318,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "-6-T",
-                    "x": 0.3511111111111111,
-                    "y": 0.8969465648854962,
-                    "uniqueID": 960994,
-                    "ioValues": [
-                        {
-                            "name": "T",
-                            "ioValue": 0.75
-                        }
-                    ],
-                    "currentEquation": "-6-T"
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.8168888888888889,
-                    "y": 0.5534351145038168,
+                    "x": 0.7306666666666667,
+                    "y": 0.32061068702290074,
                     "uniqueID": 270594,
                     "ioValues": [
                         {
@@ -2705,6 +2691,34 @@
                     ]
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.8595555555555555,
+                    "y": 0.366412213740458,
+                    "uniqueID": 882792,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/631269/348381/270594Rotate"
+                        }
+                    ],
+                    "selectedColorIndex": 0
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "-6-T",
+                    "x": 0.3511111111111111,
+                    "y": 0.8969465648854962,
+                    "uniqueID": 960994,
+                    "ioValues": [
+                        {
+                            "name": "T",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "currentEquation": "-6-T"
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9822222222222223,
@@ -2713,7 +2727,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "atoms/631269/348381/270594Rotate"
+                            "ioValue": "atoms/631269/348381/882792Color"
                         }
                     ]
                 }
@@ -2753,6 +2767,13 @@
                     "ap2Primary": false,
                     "ap1ID": 490227,
                     "ap2ID": 924318
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 924318,
+                    "ap2ID": 270594
                 },
                 {
                     "ap1Name": "Geometry",
@@ -2807,8 +2828,15 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 924318,
-                    "ap2ID": 270594
+                    "ap1ID": 270594,
+                    "ap2ID": 882792
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 882792,
+                    "ap2ID": 291875
                 },
                 {
                     "ap1Name": "result",
@@ -2816,13 +2844,6 @@
                     "ap2Primary": false,
                     "ap1ID": 960994,
                     "ap2ID": 913067
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 270594,
-                    "ap2ID": 291875
                 }
             ],
             "fileTypeVersion": 1,
