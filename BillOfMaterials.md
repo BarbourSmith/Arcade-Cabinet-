@@ -2,8 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Acer R240HY|1|$129.99|[Amazon](https://www.amazon.com/Acer-R240HY-bidx-23-8-Inch-Widescreen/dp/B0148NNKTC?tag=maslowcnc01-20)|
-|Arcade Cabinet Controls|1|$39.99|[Amazon](https://www.amazon.com/dp/B07H7GF337?tag=maslowcnc01-20)|
-|Total: |2|$169.98| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $509.94
+ 3xCOG MSRP: $0.00
